@@ -1,16 +1,24 @@
 Package: butterfly
-Title: What the Package Does (One Line, Title Case)
+Title: Backtesting framework alpha
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Alexander",
+           family = "Kochurov",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "alkochurov@edu.hse.ru",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Functions for a backtesting of trading strategies.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    xts,
+    TTR,
+    quantmod,
+    assertthat,
+    zoo
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
