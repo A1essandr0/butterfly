@@ -1,0 +1,24 @@
+Package: butterfly
+Title: Backtesting framework alpha
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alexander",
+           family = "Kochurov",
+           role = c("aut", "cre"),
+           email = "alkochurov@edu.hse.ru",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Functions for a backtesting of trading strategies.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    xts,
+    TTR,
+    quantmod,
+    assertthat,
+    zoo
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
